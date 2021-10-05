@@ -15,7 +15,7 @@ This is a telegram bot helps you to get the json data for your telegram text mes
 
 - `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram.dog/BotFather)
 
-- `OWNER_ID:` Get your user id from [@UseTGidBot] <img src="https://telegra.ph/file/fe85b1027cfd657f2f44b.jpg" width="30" height="30">](https://telegram.dog/UseTGidBot)
+- `OWNER_ID:` Get your user id from [@UseTGidBot <img src="https://telegra.ph/file/fe85b1027cfd657f2f44b.jpg" width="30" height="30">](https://telegram.dog/UseTGidBot)
 
 ## Deploy to heroku 🗳
 Press the button Deploy to heroku and give the values for the config vars. 👇
