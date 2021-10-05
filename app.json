@@ -1,0 +1,48 @@
+{
+  "name": "Show-Json-Bot",
+  "description": "Telegram ShowJson helps to get the json text. Create your Fork now.",
+  "keywords": [
+    "telegram",
+    "best",
+    "Json"
+  ],
+  "logo": "https://telegra.ph/file/a302b82d56ab437986521.jpg",
+  "success_url": "https://telegram.dog/ShowJson_Robot",
+  "website": "https://github.com/ZauteKm/Show-Json-Bot",
+  "repository": "https://github.com/ZauteKm/Show-Json-Bot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string. Get from @botfather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Give your telegram user id here get from @usetgidbot",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
