@@ -1,4 +1,4 @@
-# Telegram [ShowJson-RoBot](https://t.me/ShowJson_Robot)
+# Telegram [ShowJson](https://t.me/ShowJson_Robot)
 
 This is a telegram bot helps you to get the json data for your telegram text message, files, videos, photos etc.
 
